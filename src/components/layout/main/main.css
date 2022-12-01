@@ -1,0 +1,12 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid:
+    "body" 100%
+    / 100%;
+}
+.body {
+  grid-area: body;
+  background-color: white;
+}
